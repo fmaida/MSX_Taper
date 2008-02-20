@@ -1,0 +1,11 @@
+VERSION 1.10
+
+* Import Binary, ASCII and Basic files from any folder into a tape
+* Export Binary, ASCII and Basic files, as well as custom blocks of data from your tape to any folder
+* Create MP3 Files of your games (via Lame Encoder binaries, that have to be installed on the same computer)
+* The estimated run time length is now calculated with a more accurate method
+* Some bugs are fixed, some new bugs are probably being introduced, and I have reworked the GUI and the graphics a little bit (and that includes a brand new icon for the application)
+
+Known bugs:
+
+* When you export a tape to an MP3 file, the application will create a temporary file to store the audio file and then it will create the MP3 file. On Windows, at the end of the creation process, the temporary file is not deleted from the hard drive (don't know why yet...)
